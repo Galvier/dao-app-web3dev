@@ -4,8 +4,8 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
-  color: #fff;
+  background-color: #00b6ee;
+  color: rgb(0, 0, 0);
   overflow-x: hidden;
 }
 #root {
@@ -15,6 +15,7 @@ body {
 
 h1 {
   font-size: 5rem;
+  color: #000;
 }
 @media screen and (max-width: 768px) {
   h1 {
@@ -93,7 +94,7 @@ h1 {
 
 .member-page form h5 {
   margin-top: 0;
-  color: #7700ee;
+  color: #000bac;
 }
 
 .member-page form .card > div {
@@ -107,7 +108,7 @@ h1 {
 }
 
 .card {
-  background-color: #fff;
+  background-color: rgba(207, 239, 248, 0.733);
   padding: 1rem;
   border-radius: 1rem;
   color: #000;
@@ -116,7 +117,7 @@ h1 {
 
 button {
   cursor: pointer;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.815);
   color: #fff;
   border: none;
   font-weight: bold;
